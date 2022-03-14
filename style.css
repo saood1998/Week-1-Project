@@ -1,0 +1,1276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff;
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    height: 100vh;
+    margin-top: 25px;
+    position: relative;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-wrap: wrap;
+}
+
+.logo{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    color: #0f0f0f;
+    left: 17%;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #808080;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 2%;
+}
+
+
+.banner-right-col{
+    position: absolute;
+    top:0%;
+    right:0%;
+    z-index: -1;
+}
+.text-left-col{
+    
+}
+.text-left-col1{
+    position: absolute;
+    top:30%;
+    left:17%;
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 1.8;
+}
+.text-left-col2{
+    position: absolute;
+    color: #808080;
+    top:47%;
+    left:17%;
+    line-height: 1.8;
+}
+.btn button{
+    position: absolute;
+    top:58%;
+    left:17%;
+    color: white;
+    background: #F39C12;
+    border: none;
+    outline: none;
+    border-radius: 26px;
+    padding: 15px 32px;
+}
+.span{
+    position: absolute;
+    flex-basis: 60%;
+    max-width: 450px;
+}
+.span2{
+    color:#F39C12;
+}
+
+.hamburger{
+    width: 25px;
+    padding-left: 20px;
+    display: none;
+}
+
+#active{
+    color: #F39C12;
+}
+
+#cards{
+    width:100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.email{
+    margin-left: 1%;
+}
+
+.container{
+    width: 1100px;
+    max-width: 100%;
+    margin-top: 8%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 17rem;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    align-self: normal; 
+    border-radius: 8px;
+} 
+.card img{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    max-width: 200px;
+}
+.card p{
+    margin-bottom: 10px;
+    margin-top: 28px;
+    line-height: 1.8;
+    text-align: center;
+    color: #808080;
+}
+.card .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: #EB984E;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.left-image-bg{
+    z-index: -1;
+}
+
+.left-image{
+    position: absolute;
+    margin-left: -145px;
+    margin-top: 215px;
+}
+
+.right-cards{
+    float: right;
+    margin-top: -682px;
+    margin-bottom: 0%;
+    padding-right: 23%;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.card2 span p{
+    color: #808080;
+    line-height: 1.8;
+}
+
+.img-card{
+    padding-right: 25px;
+    padding-bottom: 40px;
+}
+#text-section{
+    text-align: center;
+    line-height: 1.8;
+}
+.heading-sec h3{
+    padding-bottom: 8px;
+    font-size: 40px;
+}
+.body-sec{
+    color: #808080;
+}
+
+.heading-sec h3 span{
+    color:#F39C12;
+}
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+
+}
+
+.footer img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.form-card{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    height: 35%;
+    margin-left: 380px;
+    margin-top: 235px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background: white;
+}
+
+.card-btn{
+    display: inline-block;
+    background: #EB984E;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.form-card input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.form-card textarea{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+
+}
+
+.footer-text{
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 300px;
+    color: white;
+    line-height: 1.8;
+}
+
+.footer-text h3{
+    padding-bottom: 8px;
+    font-size: 40px;
+}
+
+.footer-text h3 span{
+    color:#F39C12;
+}
+
+.footer-icons{
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 525px;
+}
+
+.footer-icons img{
+    padding-left: 4px;
+    width: 30px;
+}
+
+
+.container2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-sec h3 br{
+    display: none;
+}
+
+.form-card textarea {
+    padding-right: 50%;
+    padding-bottom: 24%;
+}
+
+@media only screen and (max-width: 690px) and (min-width: 426px){
+    .banner-right-col img{
+        z-index: -1;
+        width: 100%;
+    }
+    .text-left-col{
+        padding-top: 14%;
+        margin-top: 14%;
+        
+    }
+
+    .text-left-col1 {
+        position: absolute;
+        padding-top: 70%;
+        left: 5%;
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        padding-top: 73%;
+        left: 5%;
+    }
+
+    .btn button{
+        position: static;
+        border-radius: 40px;
+        margin-left: 5%;
+        margin-bottom: 72px;
+        top: 0%;
+        left: 0%;
+    }
+
+    .left-image-bg{
+        position: absolute;
+        width: 70%;
+    }
+
+    .left-imagebg .left-image {
+        position: absolute;
+        width: 50%;
+        margin-top: 42%;
+        margin-left: 30%;
+    }
+
+    .text-left-col2 p br{
+        display: none;
+    }
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 39%;
+        height: 32%;
+        margin-left: 20%;
+        margin-top: 8%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border-radius: 3px;
+        background: white;
+    }
+
+    .form-card textarea {
+        padding-right: 9%;
+        padding-bottom: 10%;
+    }
+
+    
+    .footer-text {
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 60%;
+        color: white;
+        line-height: 1.5;
+    }
+    
+    .footer-icons {
+        position: absolute;
+        margin-left: 34%;
+        margin-top: 542px;
+    }
+
+    .footer-text h3 {
+        padding-bottom: 8px;
+        font-size: 34px;
+    }
+    .right-cards {
+        margin-top: 120%;
+        margin-right: 33%;
+    }
+    .img-card{
+        padding-right: 98px;
+        padding-bottom: 40px;
+    }
+
+    .card2 span p {
+        color: #808080;
+        line-height: 1.8;
+        width: 78%;
+        padding-top: 0%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 691px){
+    .banner-right-col img{
+        z-index: -1;
+        width: 100%;
+    }
+    .text-left-col{
+        padding-top: 14%;
+        margin-top: 14%;
+        
+    }
+
+    .text-left-col1 {
+        position: absolute;
+        padding-top: 70%;
+        left: 5%;
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        padding-top: 73%;
+        left: 5%;
+    }
+
+    .btn button{
+        position: static;
+        border-radius: 40px;
+        margin-left: 5%;
+        margin-bottom: 72px;
+        top: 0%;
+        left: 0%;
+    }
+
+    .left-image-bg{
+        position: absolute;
+        width: 70%;
+    }
+
+    .left-imagebg .left-image {
+        position: absolute;
+        width: 50%;
+        margin-top: 42%;
+        margin-left: 30%;
+    }
+
+    .text-left-col2 p br{
+        display: none;
+    }
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 34%;
+        height: 35%;
+        margin-left: 34%;
+        margin-top: -6%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border-radius: 3px;
+        background: white;
+    }
+
+    .form-card textarea {
+        padding-right: 9%;
+        padding-bottom: 10%;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 34%;
+        margin-top: 44%;
+        color: white;
+        line-height: 1.8;
+    }
+    
+    .footer-icons {
+        position: absolute;
+        margin-left: 34%;
+        margin-top: 542px;
+    }
+    .right-cards {
+        margin-top: 105%;
+        margin-right: 33%;
+    }
+
+    .img-card{
+        padding-right: 98px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    .banner-right-col img{
+        z-index: -1;
+        width: 100%;
+    }
+    .text-left-col1 {
+        position: absolute;
+        padding-top: 40%;
+        left: 5%;
+
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        padding-top: 43%;
+        left: 5%;
+    }
+
+    .btn button{
+        position: absolute;
+        border-radius: 40px;
+        margin-top: 733px;
+        margin-left: 5%;
+        top: 0%;
+        left: 0%;
+    }
+
+    .right-cards {
+        margin-top: 180%;
+        margin-right: 28%;
+    }
+    .text-left-col2 p br{
+        display: none;
+    }
+    .left-image-bg{
+        position: absolute;
+        width: 100%;
+    }
+
+    .left-imagebg .left-image{
+        position: absolute;
+        width: 80%;
+        margin-top: 52%;
+        margin-left: 16%;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 66%;
+        height: 35%;
+        margin-left: 11%;
+        margin-top: 14%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 6px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 11%;
+        margin-top: 108%;
+        color: white;
+        line-height: 1;
+    }
+    .footer-text h3 {
+        padding-bottom: 8px;
+        font-size: 24px;
+    }
+
+
+    .form-card textarea {
+        padding-right: 8%;
+        padding-bottom: 13%;
+    }
+
+    .footer-icons {
+        display: none;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 147%;
+    }
+
+    .text-sec {
+        position: absolute;
+        padding-left: 108px;
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+
+    .card2 span p {
+        color: #808080;
+        line-height: 1.8;
+        width: 80%;
+        padding-top: 0%;
+    }
+
+    .img-card{
+        padding-right: 98px;
+        padding-bottom: 40px;
+    }
+
+    .card2 span p {
+        color: #808080;
+        line-height: 1.8;
+        width: 64%;
+        padding-top: 0%;
+    }
+
+    .img-card {
+        padding-right: 98px;
+        padding-bottom: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px){
+    .logo {
+        position: absolute;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0f0f0f;
+        left: 7%;
+        font-size: 33px;
+    }
+
+    .banner-right-col img{
+        z-index: -1;
+        width: 100%;
+    }
+    .text-left-col{
+        padding-top: 20%;
+        margin-top: -40%;
+        
+    }
+
+    .text-left-col1 {
+        position: absolute;
+        padding-top: 140px;
+        line-height: 1.5;
+        left: 5%;
+        font-size: 33px;
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        padding-top: 115px;
+        left: 5%;
+    }
+
+    .btn button{
+        position: absolute;
+        border-radius: 40px;
+        margin-top: 722px;
+        margin-left: 5%;
+        top: 0%;
+        left: 0%;
+    }
+    .left-image-bg{
+        position: absolute;
+        /* width: 35vh */
+        width: 100%;
+    }
+
+    .left-imagebg .left-image{
+        position: absolute;
+        width: 80%;
+        margin-top: 52%;
+        margin-left: 16%;
+    }
+
+
+    .text-left-col2 p br{
+        display: none;
+    }
+
+    .footer {
+        position: absolute;
+        width: 100%;
+        margin-top: 44%;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 78%;
+        height: 35%;
+        margin-left: 7%;
+        margin-top: 23%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .form-card textarea {
+        padding-right: 9%;
+        padding-bottom: 12%;
+    }
+    .footer-text {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 153%;
+        color: white;
+        line-height: 1;
+    }
+
+    .footer-icons {
+        position: absolute;
+        margin-left: 7%;
+        margin-top: 208%;
+    }
+    .footer-text h3 {
+        padding-bottom: 8px;
+        font-size: 24px;
+    }
+
+    .card2 span p {
+        color: #808080;
+        line-height: 1.8;
+        width: 80%;
+        padding-top: 0%;
+    }
+
+    .right-cards {
+        margin-top: 180%;
+        margin-right: 19%;
+    }
+
+    .img-card {
+        
+        height: 80px;
+        margin-bottom: 95px;
+    }
+
+    .img-card{
+        padding-right: 98px;
+        padding-bottom: 110px;
+    }
+    .card2 span p {
+        color: #808080;
+        line-height: 1.8;
+        width: 64%;
+        padding-top: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 319px) and (min-width: 0px){
+    .banner-right-col img{
+        z-index: -1;
+        width: 100%;
+    }
+    .text-left-col{
+        padding-top: 20%;
+        margin-top: -40%;
+    }
+
+    .text-left-col1 {
+        position: absolute;
+        padding-top: 140px;
+        line-height: 1.5;
+        left: 5%;
+        font-size: 30px;
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        padding-top: 115px;
+        left: 5%;
+    }
+
+    .right-cards {
+        margin-top: 180%;
+        margin-right: 19%;
+    }
+    .left-image-bg{
+        position: absolute;
+        width: 100%;
+    }
+
+    .left-imagebg .left-image{
+        position: absolute;
+        width: 80%;
+        margin-top: 52%;
+        margin-left: 16%;
+    }
+    .text-left-col2 p br{
+        display: none;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 66%;
+        height: 35%;
+        margin-left: 11%;
+        margin-top: 14%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 6px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 11%;
+        margin-top: 108%;
+        color: white;
+        line-height: 1;
+    }
+    .footer-text h3 {
+        padding-bottom: 8px;
+        font-size: 24px;
+    }
+
+
+    .form-card textarea {
+        padding-right: 8%;
+        padding-bottom: 13%;
+    }
+
+    .footer-icons {
+        display: none;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 147%;
+    }
+
+    .img-card {
+        height: 80px;
+        margin-bottom: 95px;
+    }
+
+    .img-card{
+        padding-right: 98px;
+        padding-bottom: 110px;
+    }
+   
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px){
+    .text-left-col {
+        width: 50%;
+    }
+
+    .text-left-col2 {
+        position: absolute;
+        color: #808080;
+        top: 47%;
+        left: 10%;
+        line-height: 1.8;
+        width: 30%;
+    }
+
+    .text-left-col1 {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 40px;
+        font-weight: 1000;
+        line-height: 1.8;
+    }
+    .btn button {
+        position: absolute;
+        top: 63%;
+        left: 10%;
+        color: white;
+        background: #F39C12;
+        border: none;
+        outline: none;
+        border-radius: 26px;
+        padding: 15px 32px;
+    }
+
+    .logo {
+        position: absolute;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0f0f0f;
+        left: 10%;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 33%;
+        height: 37%;
+        margin-left: 13%;
+        margin-top: 7%;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+        padding-right: 1%;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .form-card input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin: 1%;
+    }
+
+    .footer-icons {
+        position: absolute;
+        margin-left: 55%;
+        margin-top: 25%;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 54%;
+        margin-top: 8%;
+        color: white;
+        line-height: 1.8;
+    }
+
+    .right-cards{
+        margin-top: -700px;
+        padding-right: 2%;
+    }
+    .left-image {
+        position: absolute;
+        margin-left: -145px;
+        margin-top: 269px;
+        width: 41vh;
+    }
+}
+
+@media only screen and (max-width: 1009px) and (min-width: 770px){
+    .logo {
+        position: absolute;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0f0f0f;
+        left: 2%;
+        top: -1%;
+    }
+    .btn button {
+        position: absolute;
+        top: 125%;
+        left: 17%;
+        color: white;
+        background: #F39C12;
+        border: none;
+        outline: none;
+        border-radius: 26px;
+        padding: 15px 32px;
+    }
+    .text-left-col2 {
+        position: absolute;
+        color: #808080;
+        top: 112%;
+        left: 17%;
+        line-height: 1.8;
+    }
+    .text-left-col1 {
+        position: absolute;
+        top: 94%;
+        left: 17%;
+        font-size: 40px;
+        font-weight: 1000;
+        line-height: 1.8;
+    }
+
+    .text-left-col {
+        margin-top: 34%;
+    }
+    .banner-right-col img {
+        z-index: -1;
+        width: 100%;
+    }
+
+    
+    .footer img {
+        position: absolute;
+        width: 100%;
+        height: 631px;
+        z-index: -1;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 38%;
+        height: 36%;
+        margin-left: 34%;
+        margin-top: 0%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .form-card input {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 30%;
+        border-radius: 5px;
+        padding-right: -30%;
+        border: 1px solid gray;
+        margin: 10px;
+    }
+    .form-card textarea {
+        padding-right: 37%;
+        padding-bottom: 11%;
+    }
+    .card-btn {
+        display: inline-block;
+        background: #EB984E;
+        color: #fff;
+        text-align: center;
+        padding: 17px 20px;
+        border-radius: 25px;
+        margin-top: 9px;
+        margin-bottom: 28px;
+        margin-left: 55px;
+        margin-right: 90px;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 34%;
+        margin-top: 40%;
+        color: white;
+        line-height: 1.5;
+    }
+
+    .footer-icons {
+        position: absolute;
+        margin-left: 33%;
+        margin-top: 61%;
+    }
+
+    .right-cards {
+        margin-top: -245px;
+        padding-right: 22%;
+        padding-bottom: 8%;
+    }
+
+    .left-image {
+        position: absolute;
+        margin-left: -145px;
+        margin-top: 269px;
+        width: 41vh;
+    }
+
+    #text-section {
+        text-align: center;
+        margin-top: 30%;
+        line-height: 1.8;
+    }
+    
+}
+@media only screen and (max-width: 1300px) and (min-width: 1010px){
+    .banner-right-col img{
+        z-index: -1;
+        width: 80%;       
+        float: right;
+    }
+
+    .logo {
+        position: absolute;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0f0f0f;
+        left: 3%;
+        top: -1%;
+    }
+    .text-left-col1 {
+        position: absolute;
+        top: 18%;
+        left: 2%;
+        font-size: 40px;
+        font-weight: 1000;
+        line-height: 1.8;
+    }
+    .text-left-col2 {
+        position: absolute;
+        color: #808080;
+        top: 37%;
+        left: 2%;
+        line-height: 1.8;
+        width: 35%;
+
+    }
+
+    .text-left-col2 p br{
+        display: none;
+    }
+
+    .btn button {
+        position: absolute;
+        top: 57%;
+        left: 2%;
+        color: white;
+        background: #F39C12;
+        border: none header {
+            height: 100vh;
+            margin-top: -102px;
+            position: relative;
+        }
+    s: 26px;
+        padding: 15px 32px;
+    }
+
+    .form-card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 44%;
+        height: 37%;
+        margin-left: 2%;
+        margin-top: 3%;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-left: 53%;
+        margin-top: 11%;
+        color: white;
+        line-height: 1.5;
+    }
+
+    .footer-icons {
+        position: absolute;
+        margin-left: 53%;
+        margin-top: 35%;
+    }
+
+    .message{
+        padding: 10%;
+    }
+    
+    .form-card textarea {
+        padding-right: 53%;
+        padding-bottom: 24%;
+    }
+
+    .right-cards {
+        margin-top: -245px;
+        padding-right: 22%;
+        padding-bottom: 8%;
+    }
+
+    .left-image {
+        position: absolute;
+        margin-left: -145px;
+        margin-top: 269px;
+        width: 41vh;
+    }
+
+    #text-section {
+        text-align: center;
+        margin-top: 26%;
+        line-height: 1.8;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    header{
+        width:100%;
+    }
+    body{
+        background: #fff; 
+    }
+    nav{
+        background: #EAEDED;
+        width: 100%;
+        height: 8%;
+        margin-top: -25px;
+    }
+    .footer img {
+        position: absolute;
+        width: 100%;
+        height: 597px;
+        z-index: -1;
+    }
+
+    .card-btn {
+        display: inline-block;
+        background: #EB984E;
+        color: #fff;
+        text-align: center;
+        padding: -1px 51px;
+        border-radius: 25px;
+        margin-top: 18px;
+        margin-bottom: 28px;
+        margin-left: 8px;
+        margin-right: 0px;
+    }
+    .hamburger{
+        display: block;
+        width: 25px;
+        height: 16px;
+        padding-top: 28px;
+        padding-left: 80%;
+        z-index: 3;
+        float: right;        
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        padding-top: 20px;
+        padding-left: 80px;
+    }
+    .card2 img{
+        position: absolute
+        width: 10vh;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .text-sec{
+        position: absolute;
+        padding-left: 108px;
+        margin-bottom: 20px;
+    }
+
+    .text-sec p{
+        display: flex;
+        position: absolute;
+        width: 350px;
+        word-wrap: break-word;
+    }
+
+    .text-sec p br{
+        display: none;
+    }
+    .heading-sec{
+        margin-top: 1250px;
+        margin-bottom: 20px;
+    }
+
+    .card2 span p{
+        position: absolute;
+        padding-top: 5px;
+    }
+
+    .heading-sec h3 br{
+        display: flex;
+    }
+
+    .heading-sec h3{
+        margin-top: 0px;
+        line-height: 1;
+    }
+
+    .footer-text p br{
+        display: none;
+    }    
+}
